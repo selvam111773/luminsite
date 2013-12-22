@@ -9,7 +9,9 @@
  * Time: 10:40 AM
  */
 class phpinfo{
-
+    function testFunction(){
+        return 0;
+    }
 }
 phpinfo();
 ?>
