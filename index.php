@@ -11,10 +11,7 @@ phpinfo();
 ?>
 some change
 <h1>big head</h1>
-<<<<<<< HEAD
 <div class="header"></div>
-=======
 <div class="footer"></div>
->>>>>>> upstream/master
 </body>
 </html>
