@@ -1,3 +1,22 @@
-body{
-    background-color: gray;
+.main_content{
+    padding: 10px;
+    background-color: #E5EECC;
+    width: 100%;
+    border-style: solid;
+    border-color: #393530;
+}
+.inner_left{
+    background-color: #FFFFFF;
+    width: 33%;
+    float: left;
+}
+.inner_right{
+    background-color: #FFFFFF;
+    width: 33%;
+    float: right;
+}
+.inner_middle{
+    background-color: #FFFFFF;
+    width: 33%;
+    
 }
