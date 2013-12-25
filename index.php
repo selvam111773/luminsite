@@ -1,5 +1,7 @@
 <html>
-<head><title>php strom test page</title></head>
+<head><title>php strom test page</title>
+<link href="css/sytle.css" rel="stylesheet">
+</head>
 <body>
 <?php
 class phpinfo{
