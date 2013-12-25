@@ -1,6 +1,6 @@
 <html>
 <head><title>php strom test page</title>
-<link href="css/style.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body onload="callAlert()">
 some change

@@ -1,0 +1,58 @@
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (master)
+$ git remote -v
+origin  https://github.com/subash68/luminsite.git (fetch)
+origin  https://github.com/subash68/luminsite.git (push)
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (master)
+$ git checkout -b selva_master master
+Switched to a new branch 'selva_master'
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (selva_master)
+$ git pull https://github.com/selva111773/luminsite.git master
+remote: Repository not found.
+fatal: repository 'https://github.com/selva111773/luminsite.git/' not found
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (selva_master)
+$ git pull https://github.com/selvam111773/luminsite.git master
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 8 (delta 3), reused 8 (delta 3)
+Unpacking objects: 100% (8/8), done.
+From https://github.com/selvam111773/luminsite
+ * branch            master     -> FETCH_HEAD
+Updating 3a7aec2..773247d
+Fast-forward
+ .idea/scopes/scope_settings.xml | 5 +++++
+ index.php                       | 2 +-
+ js/index.js                     | 3 +++
+ 3 files changed, 9 insertions(+), 1 deletion(-)
+ create mode 100644 .idea/scopes/scope_settings.xml
+ create mode 100644 js/index.js
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (selva_master)
+$ git checkout master
+Switched to branch 'master'
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (master)
+$ git merge selva_master
+Updating 3a7aec2..773247d
+Fast-forward
+ .idea/scopes/scope_settings.xml | 5 +++++
+ index.php                       | 2 +-
+ js/index.js                     | 3 +++
+ 3 files changed, 9 insertions(+), 1 deletion(-)
+ create mode 100644 .idea/scopes/scope_settings.xml
+ create mode 100644 js/index.js
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (master)
+$ git push origin master
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 697 bytes | 0 bytes/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+To https://github.com/subash68/luminsite.git
+   3a7aec2..773247d  master -> master
+
+Subash@SUBASH-LAP /c/xampp/htdocs/jetworkspace/project1/luminsite (master)
+$
