@@ -11,5 +11,6 @@ phpinfo();
 ?>
 some change
 <h1>big head</h1>
+<div class="footer"></div>
 </body>
 </html>
