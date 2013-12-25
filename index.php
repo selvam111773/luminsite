@@ -3,7 +3,10 @@
     <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body onload="callAlert()">
-<div class="header"></div>
+<div class="header">
+
+
+</div>
 <div class="main-content">
     <div class="focus200 inner_left">
         <!-- Focus 200 content goes her  -->
