@@ -11,10 +11,7 @@ phpinfo();
 ?>
 some change
 <h1>big head</h1>
-<<<<<<< HEAD
-=======
 <div class="header"></div>
->>>>>>> selvam111773-master
 <div class="footer"></div>
 </body>
 </html>
