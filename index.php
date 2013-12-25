@@ -2,16 +2,8 @@
 <head><title>php strom test page</title>
     <link href="css/style.css" rel="stylesheet"/>
 </head>
-<<<<<<< HEAD
 <body>
 <div class="header">
-
-=======
-<body onload="callAlert()">
-<div class="header">
-
-
->>>>>>> selvam111773-master
 </div>
 <div class="main-content">
     <div class="focus200 inner_left">
