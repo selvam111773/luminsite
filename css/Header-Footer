@@ -1,0 +1,23 @@
+#header
+{
+width: 100%;
+margin: opx;
+float: left;
+}
+#header #Title-Header #Title
+{
+ font-family:sans-serif;
+    font-size: 20px;
+    font-weight:100px;
+    float:left;
+    color:white;
+   width: 50%;
+}
+#header #Title-Header #Logo
+{
+
+}
+#header #Title-Header #Tab-Control
+{
+
+}
