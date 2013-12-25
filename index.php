@@ -7,5 +7,6 @@ some change
 <h1>big head</h1>
 <div class="header"></div>
 <div class="footer"></div>
+<script src="js/index.js"></script>
 </body>
 </html>
