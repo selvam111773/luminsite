@@ -11,19 +11,26 @@
     <div class="inner_middle">
         <!-- application link goes here -->
         <h3>links for application downloading</h3>
+
         <div class="application">
             <a href="#">IEEE application</a><br>
             <a href="#">SRM admission application</a><br>
             <a href="#">link for application 1</a><br>
             <a href="#">link for application 2</a><br>
-            <a href="#">click to view full list</a>
+
+            <p><a href="external/apps_link.html" rel="#overlay">click to view full list</a></p>
         </div>
     </div>
+    <div class="appple_overlay" id="overlay">
+        <div class="contentWrap"></div>
+    </div>
+
     <div class="inner_right">
         <!-- sponsors link goes here -->
         links for the sponsors
     </div>
 </div>
+<script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>
