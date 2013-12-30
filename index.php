@@ -7,14 +7,17 @@
 <div class="main-content">
     <div class="inner_left">
         <h3 class="header_position">FOCUS 200</h3>
-        some content in the inner left and its just a preview of focus 200
-        and it contains the preview and all the links are added to the site later
-        when the
-        <!-- Focus 200 content goes her  -->
+        <div id="left_content">
+            Lumin Academy is an educational support company which runs a 15 module support system exclusively for +2
+            students named as \‘Guidance Plus\’. We have field strength of about 25 Full Time Employees and about 130
+            Part time Employees. They have enrolled around 28,000 students till now for the Guidance Plus.
+        </div>
+        <p class="content_link"><a href="focus.php">click</a> to know more</p>
+
     </div>
     <div class="inner_middle">
         <!-- application link goes here -->
-        <h3>links for application downloading</h3>
+        <h3 class="header_position">links for application downloading</h3>
 
         <div class="application">
             <a href="#">IEEE application</a><br>
@@ -22,7 +25,7 @@
             <a href="#">link for application 1</a><br>
             <a href="#">link for application 2</a><br>
 
-            <p><a href="external/apps_link.html" rel="#overlay">click to view full list</a></p>
+            <p class="content_link"><a href="external/apps_link.html" rel="#overlay">click to view full list</a></p>
         </div>
     </div>
     <div class="appple_overlay" id="overlay">
@@ -40,7 +43,7 @@
 <script src="js/jquery.colorbox.js"></script>
 <script src="js/index.js"></script>
 <script>
-   // $.colorbox({href: "external/apps_link.html"});
+    // $.colorbox({href: "external/apps_link.html"});
 </script>
 </body>
 </html>

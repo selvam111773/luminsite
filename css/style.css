@@ -1,14 +1,16 @@
 body{
     background: none repeat scroll 0 0 #E5E5E5;
     font-family: "Times New Roman";
+    width: 980px;
 }
-.main_content {
-    padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    width: 100%;
+body .content{
+    align-content: center;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 4px #888888;
+    border-radius: 4px;
+    margin: 0 1.5em 0 1.5em;
+    padding: 5px;
 }
-
 .inner_left {
     margin: 4px;
     width: 32%;
@@ -16,8 +18,11 @@ body{
     overflow: hidden;
     background: #FFFFFF;
     border: 1px solid #A1A1A1;
-    border-radius: 4px;
     box-shadow: 8px 8px 4px #888888;
+}
+#left_content{
+    margin: 10px 10px 10px 10px ;
+    text-align: justify;
 }
 
 .inner_right {
@@ -27,7 +32,6 @@ body{
     overflow: hidden;
     background: #FFFFFF;
     border: 1px solid #A1A1A1;
-    border-radius: 4px;
     box-shadow: 8px 8px 4px #888888;
 }
 
@@ -37,7 +41,6 @@ body{
     overflow: hidden;
     background: #FFFFFF;
     border: 1px solid #A1A1A1;
-    border-radius: 4px;
     box-shadow: 8px 8px 4px #888888;
 }
 
@@ -50,6 +53,15 @@ ul{
 a{
     text-decoration: none;
 }
-h3 .header_position{
-    align-content: center;
+.header_position{
+    text-align: center;
+    font-family: "Lucida Console", imes New Roman;
+}
+.content_link{
+    text-align: right;
+    margin-right: 20px;
+}
+.application{
+    text-align: justify;
+    margin-left: 30px;
 }
