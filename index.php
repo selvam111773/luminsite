@@ -1,11 +1,15 @@
 <html>
 <head><title>Lumin Academy</title>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/colorbox.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="main-content">
     <div class="inner_left">
+        <h3 class="header_position">FOCUS 200</h3>
         some content in the inner left and its just a preview of focus 200
+        and it contains the preview and all the links are added to the site later
+        when the
         <!-- Focus 200 content goes her  -->
     </div>
     <div class="inner_middle">
@@ -29,8 +33,14 @@
         <!-- sponsors link goes here -->
         links for the sponsors
     </div>
+
 </div>
+
 <script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
 <script src="js/index.js"></script>
+<script>
+   // $.colorbox({href: "external/apps_link.html"});
+</script>
 </body>
 </html>
