@@ -1,6 +1,7 @@
 <html>
 <head>
 <link type="text/css" rel="stylesheet" href="css/Header-Footer.css"/>
+<link type="text/css" href="css/Header-Footer.css" rel="=stylesheet"/>
 </head>
 <div id="Header">
   <div id="Title-Header">
@@ -10,7 +11,8 @@
     </div>
   </div>
   <div id="Tab-Control">
-       <div class="sub-tab">
+    <div id="tabs">
+      <div class="sub-tab">
            Home
        </div>
         <div class="sub-tab">
@@ -26,6 +28,8 @@
           Contact us
       </div>
     </div>
+    </div>
+
 
 </div>
 </html>
