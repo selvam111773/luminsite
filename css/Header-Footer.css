@@ -9,13 +9,12 @@ float: left;
    width: 50%;
    float: left;
    HEIGHT: 200PX;
-
 }
 #header #Title-Header #Title
 {
  font-family:sans-serif;
  font-size: 20px;
- font-weight:100px;
+ font-weight: 100px;
  float:left;
  color:white;
  width:40%;
