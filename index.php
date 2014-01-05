@@ -4,8 +4,8 @@
     <link href="css/colorbox.css" rel="stylesheet"/>
     <link href="css/Header-Footer.css" rel="stylesheet" type="text/css">
 </head>
-<body>
 <?php include("Common/Header-Footer-Template.php"); ?>
+<body>
 <div class="main-content">
     <div class="inner_left">
         <h3 class="header_position">FOCUS 200</h3>
@@ -33,10 +33,9 @@
             <a href="#">link for application 6</a><br>
             <a href="#">link for application 7</a><br>
             <a href="#">link for application 8</a><br>
+
             <p class="content_link"><a class="load_box" href="external/apps_link.html" rel="#overlay">click to view full
                     list</a></p>
-            <p class="content_link"><a class="load_box" href="external/apps_link.html" rel="#overlay">click to view full list</a></p>
-
         </div>
     </div>
     <div class="appple_overlay" id="overlay">
@@ -80,9 +79,6 @@
             sponcer list
         </div>
         <!-- sponsors link goes here -->
-        News
-        <hr><br>
-        sponcer list
     </div>
 </div>
 <?php //include("footer.php"); ?>
@@ -91,7 +87,7 @@
 <script src="js/index.js"></script>
 <script>
     $("a.load_box").colorbox({opacity: 0.5, width: "500px", height: "500px"});
-    $("a.load_box").colorbox({opacity:0.5, width: "500px", height: "500px"});
+    $("a.load_box").colorbox({opacity: 0.5, width: "500px", height: "500px"});
 </script>
 </body>
 </html>
