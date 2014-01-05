@@ -4,6 +4,7 @@
     <link href="css/colorbox.css" rel="stylesheet"/>
 </head>
 <body>
+<?php //include("header.php"); ?>
 <div class="main-content">
     <div class="inner_left">
         <h3 class="header_position">FOCUS 200</h3>
@@ -25,7 +26,7 @@
             <a href="#">link for application 1</a><br>
             <a href="#">link for application 2</a><br>
 
-            <p class="content_link"><a href="external/apps_link.html" rel="#overlay">click to view full list</a></p>
+            <p class="content_link"><a class="load_box" href="external/apps_link.html" rel="#overlay">click to view full list</a></p>
         </div>
     </div>
     <div class="appple_overlay" id="overlay">
@@ -38,14 +39,13 @@
         <hr><br>
         sponcer list
     </div>
-
 </div>
-
+<?php //include("footer.php"); ?>
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.colorbox.js"></script>
 <script src="js/index.js"></script>
 <script>
-    $.colorbox({href: "external/apps_link.html", css: "height: 500px; "});
+    $("a.load_box").colorbox({opacity:0.5, width: "500px", height: "500px"});
 </script>
 </body>
 </html>
