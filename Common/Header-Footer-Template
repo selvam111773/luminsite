@@ -1,6 +1,6 @@
 <html>
 <head>
-<link type="text/css" href="../css/Header-Footer">
+<link type="text/css" href="css/Header-Footer">
 </head>
 <div id="Header">
   <div id="Title-Header">
@@ -10,10 +10,11 @@
     <div id="Title">
        LUMIN
     </div>
-    <div id="Tab-Control">
+  </div>
+  <div id="Tab-Control">
 
 
     </div>
-  </div>
+
 </div>
 </html>
