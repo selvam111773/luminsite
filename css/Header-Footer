@@ -7,8 +7,10 @@ float: left;
 #header #Title-Header
 {
 
-    width: 50%;
+   width: 50%;
    float: left;
+   HEIGHT: 200PX;
+
 }
 #header #Title-Header #Title
 {
@@ -17,14 +19,25 @@ float: left;
  font-weight:100px;
  float:left;
  color:white;
-
-}
-#header #Title-Header #Logo
-{
-
+ width:40%;
+ background: #023b4e;
 }
 #header #Title-Header #Tab-Control
 {
 width: 50%;
 float: right;
+background: #014558;
+ HEIGHT: 100PX;
+ MARGIN-TOP: 100PX;
+  cursor: pointer;
+}
+#header #Title-Header #Tab-Control .sub-tab
+{
+    width: 100px;
+    background: #4E8D92;
+ }
+#header #Title-Header #Tab-Control .sub-tab:hover
+{
+
+ background: #335C5E;
 }

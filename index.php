@@ -7,6 +7,7 @@
 <div class="main-content">
     <div class="inner_left">
         <h3 class="header_position">FOCUS 200</h3>
+
         <div id="left_content">
             Lumin Academy is an educational support company which runs a 15 module support system exclusively for +2
             students named as \‘Guidance Plus\’. We have field strength of about 25 Full Time Employees and about 130
