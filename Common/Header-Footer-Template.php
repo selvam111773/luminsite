@@ -1,6 +1,6 @@
 <html>
 <head>
-<link type="text/css" href="css/Header-Footer">
+<link type="text/css" href="css/Header-Footer.css" rel="=stylesheet"/>
 </head>
 <div id="Header">
   <div id="Title-Header">
