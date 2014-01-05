@@ -1,7 +1,6 @@
 body{
     background: none repeat scroll 0 0 #E5E5E5;
-    font-family: "Times New Roman";
-    width: 980px;
+    font-family: "Comic Sans MS";
 }
 body .content{
     align-content: center;
@@ -10,6 +9,10 @@ body .content{
     border-radius: 4px;
     margin: 0 1.5em 0 1.5em;
     padding: 5px;
+}
+body .main-content{
+    margin: 0 auto;
+    width: 980px;
 }
 .inner_left {
     margin: 4px;

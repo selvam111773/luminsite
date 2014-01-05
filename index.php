@@ -34,7 +34,9 @@
 
     <div class="inner_right">
         <!-- sponsors link goes here -->
-        links for the sponsors
+        News
+        <hr><br>
+        sponcer list
     </div>
 
 </div>
@@ -43,7 +45,7 @@
 <script src="js/jquery.colorbox.js"></script>
 <script src="js/index.js"></script>
 <script>
-    // $.colorbox({href: "external/apps_link.html"});
+    $.colorbox({href: "external/apps_link.html", css: "height: 500px; "});
 </script>
 </body>
 </html>
