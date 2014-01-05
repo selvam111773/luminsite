@@ -4,7 +4,7 @@
     <link href="css/colorbox.css" rel="stylesheet"/>
 </head>
 <body>
-<?php //include("header.php"); ?>
+<?php include("Common/Header-Footer-Template.php"); ?>
 <div class="main-content">
     <div class="inner_left">
         <h3 class="header_position">FOCUS 200</h3>
