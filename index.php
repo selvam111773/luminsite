@@ -2,10 +2,13 @@
 <head><title>Lumin Academy</title>
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/colorbox.css" rel="stylesheet"/>
+    <link href="css/slider.css" rel="stylesheet"/>
     <link href="css/Header-Footer.css" rel="stylesheet" type="text/css">
+    <style>
+    </style>
 </head>
-<?php include("Common/Header-Footer-Template.php"); ?>
 <body>
+<?php include("Common/Header-Footer-Template.php"); ?>
 <div class="main-content">
     <div class="inner_left">
         <h3 class="header_position">FOCUS 200</h3>
@@ -81,13 +84,16 @@
         <!-- sponsors link goes here -->
     </div>
 </div>
-<?php //include("footer.php"); ?>
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.colorbox.js"></script>
+<script src="js/slider.js"></script>
 <script src="js/index.js"></script>
 <script>
-    $("a.load_box").colorbox({opacity: 0.5, width: "500px", height: "500px"});
-    $("a.load_box").colorbox({opacity: 0.5, width: "500px", height: "500px"});
+    $(document).ready(function () {
+        $(".bxslider").bxSlider();
+        $("a.load_box").colorbox({opacity: 0.5, width: "500px", height: "500px"});
+        $("a.load_box").colorbox({opacity: 0.5, width: "500px", height: "500px"});
+    });
 </script>
 </body>
 </html>

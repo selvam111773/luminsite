@@ -11,9 +11,11 @@ body .content{
     padding: 5px;
 }
 body .main-content{
-    margin-top: 10px;
-    width: 1050px;
+    left: -5px;
     margin: 0 auto;
+    position: relative;
+    top: 131px;
+    width: 1050px;
 }
 .inner_left {
     margin: 5px;

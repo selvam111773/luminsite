@@ -1,0 +1,17 @@
+.slider {
+    height: 250px;
+    left: 111px;
+    margin: 10px 0;
+    position: relative;
+    top: 140px;
+    width: 580px;
+    box-shadow: 0 0 1em #888888;
+    border-radius: 5px;
+}
+
+.slider li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
