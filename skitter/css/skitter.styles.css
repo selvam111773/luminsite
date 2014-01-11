@@ -17,6 +17,10 @@
 .box_skitter .container_skitter {
 	overflow: hidden;
 	position: relative;
+    float: left;
+    height: 322px;
+    margin-left: 0;
+    width: 906px;
 }
 
 .box_skitter .image {
@@ -384,8 +388,8 @@
 /* =Example for dimenions
 -------------------------------------------------------------- */
 .box_skitter_large {
-	width: 800px;
-	height: 300px;
+	width: 906px;
+	height: 322px;
     margin: inherit;
 }
 

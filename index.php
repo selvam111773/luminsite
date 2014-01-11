@@ -39,6 +39,11 @@
                     <img src="images/banner/4.jpg" class="cut"/>
                 </a>
             </li>
+            <li>
+                <a href="#cut">
+                    <img src="images/banner/5.jpg" class="cut"/>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
@@ -166,7 +171,8 @@
             theme: 'minimalist',
             dots: true,
             preview: true,
-            numbers_align: 'center'
+            numbers_align: 'center',
+            width_label: '1050px'
         });
     });
 </script>
