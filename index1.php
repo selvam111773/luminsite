@@ -3,7 +3,6 @@
     <link type="text/css" rel="stylesheet" href="skitter/css/skitter.styles.css">
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/Header-Footer.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/reveal.css"/>
     <style>
         #banner {
             margin: 10px auto 0;
@@ -66,7 +65,7 @@
             <a href="#">SRM University</a><br>
             <a href="#">Manipal University</a><br>
 
-            <p class="content_link"><a href="#" data-reveal-id="myModal">click to view full
+            <p class="content_link"><a class="load_box" href="external/apps_link.html" rel="#overlay">click to view full
                     list</a></p>
         </div>
     </div>
@@ -151,12 +150,7 @@
     </div>
 </div>
 <?php include("Common/footer.php"); ?>
-<div id="myModal" class="reveal-modal">
-    <h1>conent inside the reveal model</h1>
-    <a class="close-reveal-modal">&#215;</a>
-</div>
 <script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery.reveal.js"></script>
 <script src="skitter/js/jquery.easing.1.3.js"></script>
 <script src="skitter/js/jquery.animate-colors-min.js"></script>
 <script src="skitter/js/jquery.skitter.min.js"></script>

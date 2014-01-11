@@ -1,51 +1,86 @@
-#header
-{
+#header {
     width: 1050px;
     margin: 0 auto;
-
+    height: 130px;
 }
-#header #Title-Header
-{
+
+#header #Title-Header {
     width: 28%;
     float: left;
-    HEIGHT: 130PX;
+    HEIGHT: inherit;
     background: #023B4E;
 
 }
-#header #Title-Header #Title
-{
-    margin:0 auto;
+
+#header #Title-Header #Title {
+    margin: 0 auto;
 }
-#header #Title-Header #Title img
-{
+
+#header #Title-Header #Title img {
     margin-top: 45px;
     margin-left: 19px;
 }
-#header #Tab-Control
-{
+
+#header #Tab-Control {
     width: 72%;
     float: left;
     background: #014558;
     HEIGHT: 130PX;
-
     cursor: pointer;
 }
-#header #Tab-Control #tabs
-{
+
+#header #Tab-Control #tabs {
 
     margin-top: 37px;
 }
-#header #Tab-Control .sub-tab
-{
+
+#header #Tab-Control .sub-tab {
     width: 111px;
     background: #4E8D92;
-    float:left;
+    float: left;
     margin-top: 29px;
     padding: 20px;
     text-align: center;
 }
-#header #Tab-Control .sub-tab:hover
-{
+
+#header #Tab-Control .sub-tab:hover {
 
     background: #335C5E;
+}
+
+#footer{
+    background-color: #505050;
+    color: #FFFFFF;
+}
+#footer #footer-bar{
+    background-color: #00A2E3;
+}
+#footer #footer-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#footer #footer-bar ul li{
+    display: inline;
+}
+#footer #footer-bar ul li a{
+    text-decoration: none;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #036;
+}
+#footer #footer-bar ul li a:hover{
+    color: #fff;
+    background-color: #369;
+}
+#footer #footer-center{
+    margin: -19px 15px 10px;
+    padding: 5px;
+}
+#footer .verticalLine{
+    display: inline;
+    background-color: #FFFFFF;
+    width: 1px;
+    height: 100%;
 }
