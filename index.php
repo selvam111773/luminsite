@@ -4,6 +4,7 @@
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/Header-Footer.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/reveal.css"/>
+    <link  rel="stylesheet"  href="css/Footer.css" type="text/css"/>
     <style>
         #banner {
             margin: 10px auto 0;
